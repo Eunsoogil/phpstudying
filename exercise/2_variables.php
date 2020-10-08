@@ -22,8 +22,10 @@
     echo "<hr>";
     echo $number + $Number_List;
     echo "<hr>";
-    echo $NUMBER;
-    echo $NUMBeR;
+    if($NUMBER == $NUMBeR){ // int String 분별 못함
+        echo $NUMBER;
+        echo $NUMBeR;   
+    }
     echo "<hr>";
     echo $name . " " . $NUMBeR;
     ?>

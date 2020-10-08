@@ -15,7 +15,12 @@
     */
     
     if(4 == '4'){
-        echo "it is true";
+        echo "it is true"."<br>";
+        echo 4 + 4;
+        echo "<br>";
+        echo 4 + "4"; // ?????
+        echo "<br>";
+        echo 4 + 4 . "<br>";
     }
     
     echo "<hr>";

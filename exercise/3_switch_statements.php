@@ -10,7 +10,7 @@
     $number = 50;
     
     switch($number){
-        case 10 : echo "it is 34"; break;
+        case 10 : echo "it is 10"; break;
         case 37 : echo "it is 37"; break;
         case 23 : echo "it is 23"; break;
         case 12 : echo "it is 12"; break;
